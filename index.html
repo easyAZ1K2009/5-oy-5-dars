@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-oy 5-ars</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="card">
+      <div class="card__header">
+        <h1 class="card__title">Todo</h1>
+      </div>
+      <form>
+        <input
+          class="card__input"
+          type="text"
+          placeholder="Create a new todo…"
+        />
+        <button class="card__btn__add"></button>
+      </form>
+      <div class="card__todo">
+        <ul class="card__list"></ul>
+        <nav class="card__nav">
+          <p class="card__item-number"><span>0</span> items left</p>
+          <ul class="card__nav-list">
+            <li class="card__nav-item"><a href="">All</a></li>
+            <li class="card__nav-item"><a href="">Active</a></li>
+            <li class="card__nav-item"><a href="">Completed</a></li>
+          </ul>
+          <button class="card__btn-claer-all">Clear Completed</button>
+        </nav>
+      </div>
+      <address>Drag and drop to reorder list</address>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
